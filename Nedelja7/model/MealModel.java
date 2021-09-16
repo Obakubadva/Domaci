@@ -42,4 +42,13 @@ public class MealModel {
     public void setMealDiff(String mealDiff) {
         this.mealDiff = mealDiff;
     }
+     @Override
+    public String toString() {
+        return "MealModel{" +
+                "mealId=" + mealId +
+                ", mealName='" + mealName + '\'' +
+                ", mealDesc='" + mealDesc + '\'' +
+                ", mealDiff='" + mealDiff + '\'' +
+                '}';
+    }
 }

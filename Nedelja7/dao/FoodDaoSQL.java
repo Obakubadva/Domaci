@@ -41,7 +41,7 @@ public class FoodDaoSQL implements FoodDao {
 
     @Override
     public void delete(int id) throws SQLException {
-        PreparedStatement st = conn.prepareStatement("DELETE FROM food WHERE meal_id = ?");
+        PreparedStatement st = conn.prepareStatement("DELETE FROM food WHERE food_id = ?");
         st.setInt(1, id);
         st.executeUpdate();
     }

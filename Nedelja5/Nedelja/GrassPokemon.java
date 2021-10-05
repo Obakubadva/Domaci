@@ -31,7 +31,7 @@ public class GrassPokemon extends Pokemon {
 
     @Override
     public String logAll() {
-        return name+" pokemon attacks with "+attack()+", defends "+defend()+", wins against "+win()+
-                " pokemons and loses from "+lose()+" pokemons.";
+        return name + " pokemon attacks with "+ attack() + ", defends " + defend() + ", wins against " + win( ) +
+                " pokemons and loses from " + lose() + " pokemons.";
     }
 }
